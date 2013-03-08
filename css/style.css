@@ -1,0 +1,40 @@
+@font-face 
+{
+  font-family: 'MatrixCode';
+  src: url("matrix code nfi.otf") format("opentype");
+}
+html,
+body {
+height: 100%;
+background-image: url('/bg.jpg');
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+overflow-y: hidden;
+}
+.modal {
+background-image: url('/transparent.png');
+}
+canvas { font-family: 'MatrixCode'; }
+
+/* Wrapper for page content to push down footer */
+#wrap {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+/* Negative indent footer by it's height */
+margin: 0 auto -120px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+height: 60px;
+}
+#footer {
+    border-top: 1px solid #f5f5f5;
+    background-color: rgb(255,255,255); opacity: 0.5;
+    background-image: url('/logo.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
